@@ -1,0 +1,2 @@
+$("#new_post").append("<%= escape_javascript(render(:partial => 'shared/feed_item',  :object => @micropost)) %>");
+$("#new_post").slideDown('slow');
